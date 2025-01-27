@@ -2,8 +2,7 @@
 
 int main() {
     char a[100],b[100];
-    scanf("%s %s",&a,&b);
-    printf("You entered: %s and \n",a);
-    printf("%s",b);
+    scanf("%c %c",&a,&b);
+    printf("You entered: %s and %s",a,b);
     return 0;
 }
