@@ -9,7 +9,7 @@ else if (sell < cost){
        printf("Loss");
 }
 else{
-    printf("No Loss");
+    printf("No Profit No Loss");
 }
 
     return 0;
