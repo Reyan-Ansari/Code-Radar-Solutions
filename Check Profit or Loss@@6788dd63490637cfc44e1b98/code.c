@@ -5,7 +5,7 @@ scanf("%d",&cost,&sell);
 if ( sell > cost){
     printf("Profit");
 }
-else if (cost > sell){
+else if (sell < cost){
        printf("Loss");
 }
 else{
