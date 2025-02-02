@@ -5,4 +5,4 @@
     int c = ( a >> b) ^ 1 ;
     printf("%d",c);
     return 0;
-},
+}
