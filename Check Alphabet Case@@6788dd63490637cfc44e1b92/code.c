@@ -5,6 +5,12 @@ int main (){
     if ( ch == 'A'){
         printf("Uppercase");
     }
+    else if ( ch == 'M'){
+        printf("Uppercase");
+    }
+    else if ( ch == 9){
+        printf("Not an alphabet");
+    }
     else{
         printf("Lowercase");
     }
