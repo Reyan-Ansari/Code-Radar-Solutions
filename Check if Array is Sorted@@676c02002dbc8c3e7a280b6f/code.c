@@ -13,6 +13,7 @@
         }
         else{
             printf("Not Sorted");
+            break;
         }
         }
     }
