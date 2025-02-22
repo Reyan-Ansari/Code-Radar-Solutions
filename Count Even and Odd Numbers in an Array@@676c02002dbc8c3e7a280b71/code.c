@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 int main (){
     int num ,even = 0,odd = 0;
     int arry[num];
@@ -12,6 +12,7 @@ int main (){
        }
        else{
         odd++;
+
        }
   }
    printf("%d %d",even,odd);
