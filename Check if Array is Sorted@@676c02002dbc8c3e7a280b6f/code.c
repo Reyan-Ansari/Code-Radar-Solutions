@@ -9,6 +9,7 @@
         for (int i = 0; i < num ; i++){
             if ( arry[i] <= arry[i+1]){
             printf("Sorted");
+            break;
         }
         else{
             printf("Not Sorted");
