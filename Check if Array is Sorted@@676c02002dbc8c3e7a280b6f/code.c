@@ -6,10 +6,12 @@
         for (int i= 0; i < num; i++){
             scanf("%d",&arry[i]);
         }
-        if ( arry[i] <= arry[i+1]){
+        for (int i = 0; i < num ; i++){
+            if ( arry[i] <= arry[i+1]){
             printf("Sorted");
         }
         else{
             printf("Not Sorted");
+        }
         }
     }
