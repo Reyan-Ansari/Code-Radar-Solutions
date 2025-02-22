@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main (){
     int num ,even = 0,odd = 0;
-    int arry[num];
     scanf("%d",&num);
+    int arry[num];
+    
     for(int i =  0; i < num ; i++){
         scanf("%d",&arry[i]);
     }
