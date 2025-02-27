@@ -1,5 +1,5 @@
 #include <stdio.h>
-int mian (){
+int main (){
     int m ;
     scanf("%d",&n);
     for(int i = 1 ; i <=n; i++){
