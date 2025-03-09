@@ -1,19 +1,29 @@
 #include <stdio.h>
+void bubblesort(int arr[],int n){
+    for (int i = 0; i < n-1; i++){
+        for (int j = i+1 ; j < n ; j++){
+            if ( arr[i] > arr[j]){
+                int temp = arr[j];
+                arr[j] = arr[i];
+                arr[i] = temp; 
+            }
+        }
+    }
+    
+}
+void printarray(int arr[],int n){
+    for(int i = 0 ; i < n ; i++){
+        printf("%d ",arr[i]);
+    }
+}
 int main() {
-    	int a;
-	scanf("%d",&a);
-	if (a < 2){
-	    printf("invalid number");
-	}
-	else{
-	    for(int i = 2;i < a; i++){
-	        if(a % i == 0){
-	            printf("not");
-	            return 0;
-	        }
-	    }
-	    printf("yes it is");
-	}
-
+    int n;
+    scanf("%d",&n);
+    int arr[n];
+    for (int i = 0; i < n ; i++){
+        scanf("%d",&arr[i]);
+    }
+    bubblesort(arr,n);
+    printarray(arr,n);	
     return 0;
 }
