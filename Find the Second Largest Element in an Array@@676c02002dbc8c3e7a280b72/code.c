@@ -13,7 +13,11 @@ int main (){
                 arr[j] = arr[i];
                 arr[i] = temp;
             }
+           
         }
     }
+    if ( n == 1 ){
+               printf("-1");
+           }
     printf("%d",arr[n-2]);
 }
