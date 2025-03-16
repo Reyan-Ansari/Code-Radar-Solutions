@@ -17,7 +17,7 @@ int main (){
         }
     }
    if (arr[n-2] == arr[n-1]){
-       return -1;
+     printf("-1");
    }
    else{
      printf("%d",arr[n-2]);
