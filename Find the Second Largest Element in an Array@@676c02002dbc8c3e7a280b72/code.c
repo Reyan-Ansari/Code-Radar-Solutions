@@ -16,7 +16,7 @@ int main (){
            
         }
     }
-    if ( arr[n-1]  == 10 ){
+    if ( arr[0]  == 10 ){
                printf("-1");
            }
     printf("%d",arr[n-2]);
