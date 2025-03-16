@@ -16,6 +16,10 @@ int main (){
            
         }
     }
-   
-    printf("%d",arr[n-2]);
+   if (){
+    
+   }
+   else{
+     printf("%d",arr[n-2]);
+   }
 }
