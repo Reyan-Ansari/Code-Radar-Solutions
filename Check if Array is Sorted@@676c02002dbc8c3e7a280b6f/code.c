@@ -12,10 +12,7 @@
                 printf("Sorted");
                 return 0;
             }
-            else if (arry[i] <= arry[i+1]){
-                printf("Sorted");
-                return 0;
-            }
+            
            
          }
           printf("Not Sorted");
