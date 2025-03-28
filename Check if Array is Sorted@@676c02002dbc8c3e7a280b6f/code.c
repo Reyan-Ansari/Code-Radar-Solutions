@@ -8,7 +8,7 @@
         }
          
          for(int i = 0; i < num ; i++){
-            if (arry[i] <= arry[i+1]){
+            if (arry[i] < arry[i+1]){
                 printf("Sorted");
                 return 0;
             }
