@@ -7,7 +7,7 @@
             scanf("%d",&arry[i]);
         }
          
-         for(int i = 0; i < n ; i++){
+         for(int i = 0; i < num ; i++){
             if (arr[i] <= arr[i+1]){
                 printf("Sorted");
                 return 0;
