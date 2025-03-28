@@ -1,13 +1,20 @@
 #include <stdio.h>
-int main (){
-    int n ;
+
+int main() {
+    int n;
     scanf("%d",&n);
-    for (int i = 1; i <= n ; i++){
-        int alternate = i % 2;
-        for(int j = 1; j<= i ; j++){
-            printf("%d ",alternate);
-            alternate = 1 -alternate ;
+    int ch = 1 ;
+    for(int i = 1;  i <=n ; i++){
+         
+        for(int j = 1; j <= i ; j++){
+           
+            printf("%d ",ch);
+            ch = 1-ch;
+            
         }
         printf("\n");
-    }
+        
+    } 
+    
 }
+
