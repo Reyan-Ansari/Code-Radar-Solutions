@@ -11,11 +11,9 @@ int printPrimesInRange(int a, int b){
                 break ;
             }
         }
-        n 4
 
 
-
-        
+ 
         if(prime){
             printf("%d ",i);
         }
