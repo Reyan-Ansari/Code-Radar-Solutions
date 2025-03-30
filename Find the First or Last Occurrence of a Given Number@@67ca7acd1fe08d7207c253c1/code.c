@@ -1,5 +1,5 @@
 #include <stdio.h>
-int findOccurence(int arr, int n, int target ,char mode){
+int findOccurence(int arr[], int n, int target ,char mode){
  switch(mode){
     case 'F' : 
     for(int i = 0 ; i < n ; i++){
