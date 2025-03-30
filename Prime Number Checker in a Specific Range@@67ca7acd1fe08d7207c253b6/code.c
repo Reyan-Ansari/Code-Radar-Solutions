@@ -5,7 +5,7 @@ int printPrimesInRange(int a, int b){
         for(int j = 2 ; j < i; j++){
             if(i % j == 0){
                 prime = 0;
-                return 0 ;
+                break ;
             }
         }
         if(prime){
