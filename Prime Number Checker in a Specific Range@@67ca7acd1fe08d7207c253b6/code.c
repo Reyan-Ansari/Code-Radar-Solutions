@@ -3,7 +3,8 @@ int printPrimesInRange(int a, int b){
     if(a % 2 == 0 && b % 2 == 0){
         printf("No prime numbers");
     }
-    for(int i = a ; i <= b ; i++){
+    else{
+        for(int i = a ; i <= b ; i++){
         int prime = 1 ;
         for(int j = 2 ; j < i; j++){
             if(i % j == 0){
@@ -15,5 +16,6 @@ int printPrimesInRange(int a, int b){
         if(prime){
             printf("%d ",i);
         }
+    }
     }
 }
