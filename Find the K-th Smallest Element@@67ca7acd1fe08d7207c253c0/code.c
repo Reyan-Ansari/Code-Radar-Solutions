@@ -9,8 +9,8 @@ int kthSmallest(int arr[], int n,int k){
             }
         }
     }
-    int size = sizeof(arr) / sizeof(arr[0]);
-    if(k > size){
+    
+    if(k > n){
         return -1 ;
     }
     else{
