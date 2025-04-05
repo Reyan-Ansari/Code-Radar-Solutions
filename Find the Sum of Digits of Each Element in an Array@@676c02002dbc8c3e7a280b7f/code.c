@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&n);
     int arr1[n],arr2[n];
     for(int i = 0; i < n ; i++){
-        scanf("%d",&arr[i]);
+        scanf("%d",&arr1[i]);
     }
     for(int i = 0; i < n ; i++)[
         int sum  = 0;
