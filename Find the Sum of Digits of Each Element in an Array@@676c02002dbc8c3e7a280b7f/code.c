@@ -8,10 +8,10 @@ int main(){
     }
     for(int i = 0; i < n ; i++)[
         int sum  = 0;
-        while(i > 0){
-            int digit  = i % 10 ;
+        while(arr1[i] > 0){
+            int digit  = arr1[i] % 10 ;
             sum = sum + digit ;
-            i = i / 10 ;
+            arr1[i] = arr[i] / 10 ;
         }
         arr2[i] = sum ;
     ]
