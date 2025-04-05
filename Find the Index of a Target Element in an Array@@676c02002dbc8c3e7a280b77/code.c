@@ -13,12 +13,12 @@ int main (){
             printf("%d",i);
             return 0;
         }
-        printf("-1");
-        break;
+       
         
         
        
     }
+    printf("-1");
     
 
 }
