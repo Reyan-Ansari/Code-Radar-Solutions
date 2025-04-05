@@ -10,10 +10,10 @@ int main(){
         arr2[n-i-1]  = arr1[i];
     }
     for(int i = 0; i < n ; i++){
-        if(arr1[i] == arr2[i]){
-            printf("YES");
+        if(arr1[i] != arr2[i]){
+            printf("NO");
             return 0;
         }
     }
-    printf("NO");
+    printf("YES");
 }
