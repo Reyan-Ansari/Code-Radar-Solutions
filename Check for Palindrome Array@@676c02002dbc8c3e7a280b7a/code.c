@@ -7,7 +7,7 @@ int main(){
          scanf("%d",&arr1[i]);
     }
     for(int i = n-1 ; i >=0 ; i--){
-        arr2[n-i]  = arr1[i];
+        arr2[n-i-1]  = arr1[i];
     }
     for(int i = 0; i < n ; i++){
         if(arr1[i] == arr2[i]){
