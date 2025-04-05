@@ -11,7 +11,7 @@ int main(){
         while(arr1[i] > 0){
             int digit  = arr1[i] % 10 ;
             sum = sum + digit ;
-            arr1[i] = arr[i] / 10 ;
+            arr1[i] = arr1[i] / 10 ;
         }
         arr2[i] = sum ;
     }
