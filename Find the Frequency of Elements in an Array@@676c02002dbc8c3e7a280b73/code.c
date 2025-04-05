@@ -4,10 +4,10 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     int visit[n];
-    for(int i = 0;i < n ; i++)[
+    for(int i = 0;i < n ; i++){
         scanf("%d",&arr[i]);
         visit[i] = 0 ;
-    ]
+    }
     for(int i = 0; i < n ; i++){
         int count = 1;
         if(visit[i] == 1){
