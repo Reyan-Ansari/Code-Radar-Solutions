@@ -2,7 +2,7 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int arr[n],visit[n],arr1[10],index = 0;
+    int arr[n],visit[n],arr1[10];
     for(int i = 0; i < n ; i++){
          scanf("%d",&arr[i]);
          visit[i] = 0;
@@ -20,8 +20,15 @@ int main(){
                 }
             }
         }
-         arr1[index++] = count ;
+         arr1[i] = count ;
     }
-
+ int max  = arr1[0], element = arr[0];
+ for(int i = 0; i < n ; i++){
+    if(arr1[i] > max){
+        max = arr1[i];
+        element = arr[i];
+    }
+ }
+ printf("%d",element);
     
 }
