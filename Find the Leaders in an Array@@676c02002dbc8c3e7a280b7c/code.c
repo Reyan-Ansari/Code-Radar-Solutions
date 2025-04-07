@@ -12,6 +12,13 @@ int main(){
         if(arr[i] < arr[j]){
             break;
         }
+        else{
+            if(arr[i] >= arr[j]){
+            printf("%d ",arr[i]);
+            break;
+            
+        }
+        }
        
       }
     }
