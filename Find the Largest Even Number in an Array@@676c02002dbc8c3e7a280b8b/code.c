@@ -12,7 +12,7 @@ int main(){
         }
         else{
             printf("-1");
-            break;
+            return 0;
         }
     }
     int maxeven = even[0];
