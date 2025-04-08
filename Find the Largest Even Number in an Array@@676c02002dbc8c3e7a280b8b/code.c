@@ -16,7 +16,7 @@ int main(){
     int maxeven = even[0];
     for(int i =0 ; i < index ; i++){
         if(even[i] > maxeven){
-            maxeven = arr[i];
+            maxeven = even[i];
         }
     }
     
