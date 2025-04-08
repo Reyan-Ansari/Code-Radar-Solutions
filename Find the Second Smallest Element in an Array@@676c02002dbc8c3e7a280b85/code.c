@@ -10,10 +10,15 @@ int main(){
         for(int j = i+1 ; j< n ; j++){
             if(arr[i]> arr[j]){
                 int temp = arr[i];
-                aaarr[i] = arr[j];
+                arr[i] = arr[j];
                 arr[j] = temp ;
             }
         }
     }
-    printf("%d",arr[1]);
+    if(arr[0] < arr[1]){
+        printf("%d",arr[1])
+    }
+    else{
+        printf("-1");
+    }
 }
