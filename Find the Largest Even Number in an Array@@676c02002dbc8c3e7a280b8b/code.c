@@ -13,13 +13,18 @@ int main(){
        
     }
     
-    int maxeven = even[0];
+    if(index ==  0){
+        printf("-1");
+    }
+    else{
+        int maxeven = even[0];
     for(int i =0 ; i < index ; i++){
         if(even[i] > maxeven){
             maxeven = even[i];
         }
     }
     printf("%d",maxeven);
+    }
     
 
 }
