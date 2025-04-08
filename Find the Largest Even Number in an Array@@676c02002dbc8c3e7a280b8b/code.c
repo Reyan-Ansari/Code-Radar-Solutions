@@ -10,17 +10,15 @@ int main(){
         if(arr[i] % 2 == 0){
             even[index++] = arr[i];
         }
-        else{
-            printf("-1");
-            return 0;
-        }
+       
     }
+    
     int maxeven = even[0];
     for(int i =0 ; i < index ; i++){
-        if(arr[i] > maxeven){
+        if(even[i] > maxeven){
             maxeven = arr[i];
         }
     }
-    printf("d",maxeven);
+    
 
 }
