@@ -19,6 +19,7 @@ int main(){
             maxeven = even[i];
         }
     }
+    printf("%d",maxeven);
     
 
 }
