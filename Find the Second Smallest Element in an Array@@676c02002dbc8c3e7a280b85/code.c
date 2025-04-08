@@ -15,12 +15,12 @@ int main(){
             }
         }
     }
-    if(arr[0] == arr[1]){
+    if(arr[0] == arr[1] ){
         printf("%d",arr[2]);
     }
     else if(arr[0] < arr[1]){
         printf("%d",arr[1]);
-    }
+    }  
     else if(arr[1] == 0){
         printf("-1");
     }
