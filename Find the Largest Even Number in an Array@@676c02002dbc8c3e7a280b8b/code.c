@@ -10,6 +10,10 @@ int main(){
         if(arr[i] % 2 == 0){
             even[index++] = arr[i];
         }
+        else{
+            printf("-1");
+            break;
+        }
     }
     int maxeven = even[0];
     for(int i =0 ; i < index ; i++){
