@@ -15,7 +15,10 @@ int main(){
             }
         }
     }
-      if(arr[0] == arr[1] && arr[1] == arr[2]){
+     if(n == 1){
+        printf("-1");
+    }
+      else if(arr[0] == arr[1] && arr[1] == arr[2]){
         printf("-1");
     }
 
@@ -25,9 +28,7 @@ int main(){
     else if(arr[0] == arr[1] ){
         printf("%d",arr[2]);
     }
-    else if(n == 1){
-        printf("-1");
-    }
+    
     else{
         printf("-1");
     }
