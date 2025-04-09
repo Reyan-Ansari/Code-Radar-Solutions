@@ -27,5 +27,5 @@ int main(){
             element = arr[i];
         }
     }
-    primtf("%d",element);
+    printf("%d",element);
 }
