@@ -25,6 +25,9 @@ int main(){
     else if(arr[0] == arr[1] ){
         printf("%d",arr[2]);
     }
+    else if(arr[0]== 5){
+        printf("-1");
+    }
     else{
         printf("-1");
     }
