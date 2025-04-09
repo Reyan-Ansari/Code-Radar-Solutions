@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int n,index = 0; 
+    int n; 
     scanf("%d",&n);
     int arr[n],visit[n],freq[10];
     for(int i = 0; i < n ; i++){
@@ -18,10 +18,10 @@ int main(){
                 visit[j] = 1;
             }
         }
-         freq[index++] = count ;
+         freq[i] = count ;
     }
     int max = freq[0],element = arr[0];
-    for(int i = 0; i < index ; i++){
+    for(int i = 0; i < n ; i++){
         if(freq[i] > max){
             max = freq[i];
             element = arr[i];
