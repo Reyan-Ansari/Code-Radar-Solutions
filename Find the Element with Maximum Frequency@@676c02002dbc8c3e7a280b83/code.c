@@ -3,7 +3,7 @@ int main(){
     int n,index = 0; 
     scanf("%d",&n);
     int arr[n],visit[n],freq[10];
-    for(int i = ; i < n ; i++){
+    for(int i = 0; i < n ; i++){
         scanf("%d",&arr[i]);
         visit[i] = 0;
     }
