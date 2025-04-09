@@ -24,7 +24,7 @@ int main(){
     for(int i = 0; i < index ; i++){
         if(freq[i] > max){
             max = freq[i];
-            element = arr[i]
+            element = arr[i];
         }
     }
     primtf("%d",element);
